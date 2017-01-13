@@ -36,8 +36,8 @@ public class MainActivity extends Activity {
                     Model model = response.body();
                     Log.e("TAG", "One:" + model.getOne());
                     Log.e("TAG", "Key:" + model.getKey());
-                    textview1.setText("One:" + model.getKey());
-                    textview2.setText("Key:" + model.getOne());
+                    textview1.setText("One:" + model.getOne());
+                    textview2.setText("Key:" + model.getKey());
 
                 }
 
